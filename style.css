@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#sectionNav {
+    display: flex;
+    justify-content: space-between;
+    background-size: 100%;
+    height: 10vh;
+    background-color: rgb(216, 216, 216);
+}
+
+#menuNav {
+    display: flex;
+
+    gap: 25px;
+}
+
+#menuNav a {
+    text-decoration: none;
+}
+
+#icons {
+    display: flex;
+    gap: 10px;
+}
+
+.iconsBg {
+    background-color: white;
+    width: 2vw;
+    height: 4vh;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tudoNav {
+    display: flex;
+    gap: 25px;
+    margin-right: 40px;
+
+}
+
+#example {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(216, 216, 216);
+}
+
+#image img {
+    width: 20vw;
+    margin-top: 15vh;
+}
