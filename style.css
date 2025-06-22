@@ -50,9 +50,213 @@
     align-items: center;
     justify-content: space-around;
     background-color: rgb(216, 216, 216);
+    padding-left: 7vw;
+    gap: 5vw;
 }
 
+
 #image img {
-    width: 20vw;
-    margin-top: 15vh;
+    width: 40vw;
+    margin-top: 8vh;
+    padding-left: 15vw;
+}
+
+#contactUs h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 3vh;
+}
+
+#contactUs p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+
+#contactUs p .contactIsolado{
+    font-weight: 500;
+    color: black;
+}
+
+#titlesContact h1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 20vh;
+    margin-bottom: 2vh;
+}
+
+#titlesContact p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 4vh;
+}
+
+#contacts{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+
+}
+
+#contactInfo{
+    background-color: rgba(0, 194, 0, 0.877);
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.infos{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    padding-top: 7vh;
+    padding-left: 2vw;
+    padding-right: 12vw;
+    padding-bottom: 1vh;
+    font-size: 18px;
+
+}
+
+#paragrafo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: gray;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+
+#inputName{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 18px;
+}
+#inputEmail{
+    width: 250px;
+    height: 30px;
+}
+
+#subject{
+    width: 508px;
+    height: 30px;
+    margin-bottom: 18px
+}
+button{
+    background-color: green;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding: 18px 15px 15px 18px;
+    border: none;
+}
+
+textarea{
+    width: 508px;
+    height: 200px;
+    margin-bottom: 18px;
+}
+
+iframe{
+    margin-top: 5vh;
+    margin-left: 210px;
+    height: 100vh;
+}
+
+#rodape{
+    background-color: rgb(7, 7, 14);
+    display: flex;
+    height: 25vh;
+    justify-content: space-around;
+    padding-top: 15vh;
+    padding-bottom: 8vh;
+}
+
+#imageRodape p{
+    max-width: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 3vh;
+    color: gray;
+}
+
+#quickRodape h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2vh;
+    color: white;
+}
+
+#quickRodape ul li{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: gray;
+}
+
+#adressRodape ul li{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: gray;
+}
+
+#adressRodape h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2vh;
+    color: white;
+}
+
+#newsletterRodape h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 2vh;
+    color: white;
+}
+
+#newsletterRodape p{
+    max-width: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: gray;
+}
+
+#finish{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5vh;
+    margin-bottom: none;
+    background-color: rgb(7, 7, 14);
+    
+}
+
+#finish p{
+    max-width: 255px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: gray;
+}
+#finish h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: gray ;
+}
+
+.iconsBg2{
+    color: white;
 }
